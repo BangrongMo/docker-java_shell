@@ -1,1 +1,2 @@
 ### docker-java 交互执行模拟docker exec -it  xxxxx bash
+V1用于控制台模拟，V2可以通过websocket或者Http请求的方式方式模拟shell环境，从而实现web上远程操作容器的目的
