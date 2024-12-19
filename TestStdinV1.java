@@ -9,7 +9,7 @@ import com.github.dockerjava.core.command.ExecStartResultCallback;
 import com.github.dockerjava.netty.NettyDockerCmdExecFactory;
 import java.io.ByteArrayInputStream;
 
-public class TestStdin {
+public class TestStdinV1 {
     public static void main(String[] args) throws InterruptedException {
         // 创建 Docker 客户端
         DockerClientConfig config = DefaultDockerClientConfig.createDefaultConfigBuilder()
